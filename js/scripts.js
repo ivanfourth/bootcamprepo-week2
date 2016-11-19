@@ -1,3 +1,17 @@
+//Zadanie nr 1
+(function() {
+
+  if(typeof String.prototype.repeat === "function" ) return; //Sprawdzenie typu obiektu (sprawdzenie metody czy itnieje sprawdzenie czy pod String.prototype istnieje jakaś funkcja)
+  String.prototype.repeat = function(count){
+    var output = "";
+    for(var i = 0; i<count; i++){
+      output += this.toString();
+    }
+    return output;
+  };
+})();
+
+//Zadanie nr 2
 function EventEmitter() {
     this.events = {};
 }
@@ -82,3 +96,5 @@ db.connect();
 setTimeout(function() {
     db.disconnect();
 }, 5000);
+
+//Koniec zadania nr 2
