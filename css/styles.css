@@ -426,6 +426,68 @@ textarea {
   color: #fff;
   background: green;
   width: 100%;
+  margin: 0 auto;
+  padding: 0px;
+  line-height: 50px;
+  text-align: center;
+}
+.zad1 h3 {
+  margin: 15px auto;
+  padding: 0px;
+}
+
+.output {
+  background: grey;
+  clear: both;
+  line-height: 20px;
+  text-align: left;
+  white-space: pre;
+  color: #fff;
+  padding: 20px;
+}
+.output span {
+  text-align: center;
+  display: block;
+}
+
+.getDataButton {
+  background: green;
+  display: block;
+  width: 150px;
+  height: 50px;
+  line-height: 50px;
+  color: #fff;
+  text-transform: uppercase;
+  border: 1px solid green;
+  margin-top: 30px;
+  cursor: pointer;
+}
+
+.buttonData {
+  background: green;
+  display: block;
+  width: 150px;
+  height: 50px;
+  line-height: 50px;
+  color: #fff;
+  text-transform: uppercase;
+  border: 1px solid green;
+  margin-top: 30px;
+  cursor: pointer;
+  width: 275px;
+}
+
+.ajax::after {
+  clear: both;
+  content: "";
+  display: table;
+}
+
+.zad__ost h3 {
+  text-transform: uppercase;
+  color: #fff;
+  background: green;
+  width: 100%;
   height: 50px;
   line-height: 50px;
   text-align: center;
