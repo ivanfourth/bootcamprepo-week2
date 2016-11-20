@@ -166,7 +166,7 @@ function createData(obj) {
   }
 
 var data = createData({});
-data.set("name", "Marcin");
+data.set("name", "Marcin info do zadania 4");
 console.log( data.get("name") );
 
 })();
